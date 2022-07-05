@@ -1,0 +1,57 @@
+
+
+.registrarse {
+    
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+      grid-template-rows: none;
+      justify-content: space-around;
+      margin: 10px 10px 10px 10px;
+
+
+      .uno {
+        width: 500px;
+        height: 500px;
+        overflow: hidden;
+      
+      }
+
+      .row {
+         display: inline-block;
+
+        
+ 
+      }
+
+      .form-label {
+        color: $link;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 30px;
+       }
+    
+    
+    
+    .imgregistro {
+        width: 600px;
+        height: 800px;
+    }
+}
+
+.contac {
+  display: grid;
+  grid-template-columns: 3fr 3fr ;
+  grid-template-rows: none;
+  margin: 10px 10px 10px 10px;
+
+  .contacto {
+    width: 600px;
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .mb-3 {
+    color: $link;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 30px;
+  }
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@500&family=League+Gothic&family=Pathway+Gothic+One&display=swap');
+@import "./variables";
+@import "../utilities/mixins";
+
+
+
+
+body {
+    background-color: $body;
+    
+@include breakpoints(sm) {
+      
+    body {
+        background-color: red;
+    }
+ }
+  
+ @include breakpoints (mb) {
+    body {
+        background-color: red;
+    }
+
+ }
+
+ }
+
+h1 {
+    color: $link;
+    font-family: 'League Gothic', sans-serif;
+    margin: 20px 20px 20px 20px;
+}
+
+h2 {
+        color: $link;
+        font-family: 'League Gothic', sans-serif;
+    
+}
+
+h3 {
+    color: $letrab;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+p {
+   
+        color: $letrab;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        margin: 10px;
+    }
+    

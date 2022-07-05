@@ -1,0 +1,41 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+
+
+
+
+ 
+.tutoriales  {
+    display: grid;
+    grid-template-columns: 2fr 2fr  ; 
+    grid-template-rows: 2fr 2fr  ;
+    overflow: auto;
+    margin: 40px 40px 40px 40px;
+    padding: auto;
+    border: solid 2px black;
+  
+
+    @include breakpoints(sm) {
+        .tutoriales{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+     }
+       
+   iframe {
+    width:400px;
+    height: 400px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+       
+
+.tutoriales-titulo {
+    margin:20px 20px 20px 20px;
+    ;
+}
+
+
+
+}

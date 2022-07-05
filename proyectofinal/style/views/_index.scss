@@ -1,0 +1,65 @@
+@import "../base/variables";
+@import "../utilities/mixins";
+
+
+.boxinicio {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+
+
+    .inicio {
+        width: 1200px;
+        height: 800px;
+        margin: 20px 20px 20px 30px;
+        padding: auto;
+    }   
+
+    
+    @include breakpoints (sm) {
+      .inicio {
+       width: 100px;
+       height: 50px;
+
+   }
+}
+    
+
+  
+
+  .titulo {
+           
+    color: $link;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+
+
+  }
+   
+   .text {
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+    padding: auto;
+   }
+
+.subtitulo {
+    font-size: 40px;
+}
+
+}
+
+    
+ 
+ 
+      
+.imginscripcion {
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px 10px 10px ;
+    padding: auto;
+    position:fixed;
+    overflow: scroll;
+   }
+ 
